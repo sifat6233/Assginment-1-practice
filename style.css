@@ -12,7 +12,14 @@
   color: #FFF;
   font-size: 15px;
   font-weight: 600;
-
+}
+/* main{
+  overflow: hidden;
+} */
+section{
+  width: 1050px;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
 /* header section */
@@ -41,4 +48,161 @@
   font-weight: 400;
   line-height: 26px;
   margin: 30px 0;
+}
+
+/* failure-of-previous-year */
+.previous-container{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.previous-img{
+  
+}
+.previous-description{
+
+}
+.previous-title{
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 266px;
+}
+.previous-info{
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 20px 0;
+}
+.previous-info-list i{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #16D887;
+}
+.previous-info-list p{
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+
+/* --------------plans */
+.plans-title{
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.plans-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.plan-heading{
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 20px 0;
+}
+.lan-data{
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+/* ----------------positive-mindset */
+
+.mindset-img{
+  position: relative;
+  width: 100%;
+}
+.gre-1{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.gre-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.mindset-des{
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  width: 500px;
+  top: 0;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.call-btn{
+  width: 120px;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+  color: #F15B22;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* footer section ---------------- */
+
+footer{
+  overflow: hidden;
+  background-color: black;
+}
+.footer-container{
+  display: flex;
+  width: 1050px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.footer-future{
+  width: 500px;
+  color: white;
+}
+.footer-future h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-future p{
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 445px;
+  margin-top: 10px;
+}
+.footer-future .phone{
+  
+}
+.footer-future .email{
+  padding: 15px 0;
+}
+.social-media{
+
+}
+.footer-subscripe{
+  color: white;
+}
+.input-email{
+  padding: 10px 10px;
+  width: 180px;
+  margin-top: 30px;
 }
